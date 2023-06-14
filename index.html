@@ -1,0 +1,235 @@
+<html>
+<head>
+<title>FLIOKART</title>
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+		
+body{
+background:#0182bc; 
+}
+
+.top{
+background-color:#dcca90;  
+position:reltive;
+height:67px;
+
+
+}
+
+.logo{
+position:absolute;
+left:20px;
+top:11px;
+}
+
+#fname{
+width:300px;
+height:35px;
+background:#f1f3f6;
+}
+
+.search{
+position:absolute;
+text-align:center;
+left:200px;
+top:20px;
+background:#f1f3f6;
+}
+
+.btn{
+position:absolute;
+left:470px;
+top:26px;
+}
+
+.login{
+background-color:f1f3f6;
+width:100px;
+height:28px;
+position:absolute;
+text-align:center;
+color:#034172;
+font-size:20px;
+top:24px;
+right:650px;
+cursor:pointer;
+}
+
+
+.seller{
+color:#f1f3f6;
+font-size:20px;	
+position:absolute;
+right:480px;
+top:26px;
+
+}
+
+.more{
+color:#f1f3f6;
+font-size:20px;	
+position:absolute;
+right:400px;
+top:26px;
+}
+
+.arrow{
+position:absolute;
+right:385px;
+top:33px;
+}
+
+.more:hover .moreDropContain{
+display: block;
+}
+
+.cart1{
+position:absolute;
+right:310px;
+top:26px;
+}
+
+.cart{
+color:#f1f3f6;
+font-size:20px;	
+position:absolute;
+right:270px;
+top:26px;
+
+}
+
+ul{
+list-style-type:none;
+display:inline-block;
+}
+
+.li1{
+display:inline-block;
+padding:5px;
+color:black;
+border:3px solid white;
+margin-right:41px;
+font-size:16px;
+cursor:pointer;
+}
+
+ul.list{
+width: 100%;
+}
+
+ul.list li {
+width: 100%;
+padding: 10px;
+color: gray;
+font-size: 15px;
+}
+
+ul.list li:hover{
+background: rgba(220,220,220,0.8);
+}
+
+nav{
+background-color:white;
+}
+
+.moreDropContain{
+	display: none;
+	position: absolute;
+	right: -90px;
+	top: 40px;
+	width: 160px;
+	height: auto;
+	background: white;
+	box-shadow: 0px 5px 10px rgba(18,18,18,0.6);
+}
+
+.triangle{
+position: absolute;
+top: -20px;
+left: 40%;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 10px;
+border-color: transparent transparent white transparent;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="top">
+
+<!--logo-->
+	<div class="logo">
+	<img src="hkart1.png" height="50px" width="100px">
+	</div>
+<!--search-->	
+	<div class="search">
+	<input id="fname" name="fname" placeholder="Search for products,brands and more">
+	</div>
+<!--search icon-->
+	<div class="btn">
+	<img src="loupe.png" height="20px" width="20px">
+	</div>
+<!--login-->
+	<div class="login">Login</div>
+<!--seller-->
+	<div class="seller">
+	Become a Seller
+	</div>
+<!--word more-->	
+	<div class="more">
+	More
+	<div class="moreDropContain">
+		<ul class="list">
+			<li>Mobiles</li>
+			<li>Mi</li>
+			<li>Realme</li>
+			<li>Samsung</li>
+			<li>Infinix</li>
+		</ul>
+		<div class="triangle"></div>
+	</div>
+	</div>
+<!--arrow icon-->
+	<div class="arrow">
+	<img src="arrow1.png" height="10px" width="10px">
+	</div>
+<!--cart logo-->
+	<div class="cart1">
+	<img src="cart.png" height="25px" width="25px">
+	</div>
+<!--cart-->
+	<div class="cart">
+	Cart
+	</div>
+
+</div>
+
+<hr  style="color:#206dc6;">
+
+	<nav>
+	<ul class="navbar">
+	<li class="li1">Electronics</li>
+	<li class="li1">Tv & Appliances</li>
+	<li class="li1">Men</li>
+	<li class="li1">Women</li>
+	<li class="li1">Baby & Kids</li>
+	<li class="li1">Home & Furniture</li>
+	<li class="li1">Sport,Books & More</li>
+	<li class="li1">Flights</li>
+	<li class="li1">Offer Zone</li>
+	</nav>
+	
+
+
+</body>
+</html>
